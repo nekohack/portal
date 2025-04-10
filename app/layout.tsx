@@ -10,6 +10,19 @@ export const metadata: Metadata = {
   title: "YUMA | Developer & Manager",
   description:
     "Personal website of YUMA - Application Developer and Engineering Manager.",
+  openGraph: {
+    title: "YUMA | Developer & Manager",
+    description:
+      "Personal website of YUMA - Application Developer and Engineering Manager.",
+    images: [
+      {
+        url: "https://i.imgur.com/s0F1UXD.jpg",
+        width: 1200,
+        height: 630,
+        alt: "",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
