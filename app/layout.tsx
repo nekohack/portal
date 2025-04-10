@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YUMA | Photographer & Developer",
+  title: "YUMA | Developer & Manager",
   description:
-    "Personal website of YUMA - Nikon Photographer and Application Developer",
+    "Personal website of YUMA - Application Developer and Engineering Manager.",
 };
 
 export default function RootLayout({
