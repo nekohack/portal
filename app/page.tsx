@@ -112,22 +112,6 @@ export default function Home() {
           <span>
             &copy; {new Date().getFullYear()} YUMA. All rights reserved.
           </span>
-          <div className="flex gap-4">
-            <Link
-              href="/privacy"
-              className="hover:underline flex items-center gap-1"
-            >
-              <ShieldAlert className="h-4 w-4" />
-              プライバシーポリシー
-            </Link>
-            <Link
-              href="/contact"
-              className="hover:underline flex items-center gap-1"
-            >
-              <FileText className="h-4 w-4" />
-              お問い合わせ
-            </Link>
-          </div>
         </div>
       </footer>
     </main>
