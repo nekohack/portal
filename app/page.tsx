@@ -7,7 +7,7 @@ import {
   Wrench,
   User,
   ShieldAlert,
-  FileText
+  FileText,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -55,14 +55,52 @@ export default function Home() {
               <div className="text-gray-600 dark:text-gray-300 space-y-4 leading-relaxed">
                 <p>
                   関西を拠点に活動しているアプリケーションデベロッパー兼エンジニアリングマネージャーです。
-                  主にWebアプリケーションのバックエンド開発およびシステム全体のアーキテクチャ設計を得意としており、Node.js、TypeScript、Rust、MongoDBなどの技術スタックを用いたプラットフォームのコア開発・保守運用に深く携わっています [cite: The user is a professional software engineer with a skill set spanning frontend development, backend development (primary focus), and application architecture design., The user is a professional software engineer with a skill set spanning frontend development, backend development (primary focus), and application architecture design., The user has a strong preference for a modern technical stack including Flutter, Firebase, Cloudflare (Pages/Workers), and is exploring Rust for personal projects., The user works on the development and maintenance of "BOTCHAN," a chatbot and payment platform, involving technologies like Node.js, TypeScript, MongoDB.].
+                  主にWebアプリケーションのバックエンド開発およびシステム全体のアーキテクチャ設計を得意としており、Node.js、TypeScript、Rust、MongoDBなどの技術スタックを用いたプラットフォームのコア開発・保守運用に深く携わっています
+                  [cite: The user is a professional software engineer with a
+                  skill set spanning frontend development, backend development
+                  (primary focus), and application architecture design., The
+                  user is a professional software engineer with a skill set
+                  spanning frontend development, backend development (primary
+                  focus), and application architecture design., The user has a
+                  strong preference for a modern technical stack including
+                  Flutter, Firebase, Cloudflare (Pages/Workers), and is
+                  exploring Rust for personal projects., The user works on the
+                  development and maintenance of "BOTCHAN," a chatbot and
+                  payment platform, involving technologies like Node.js,
+                  TypeScript, MongoDB.].
                 </p>
                 <p>
-                  また、フロントエンド開発やクロスプラットフォームフレームワーク（Flutter）を活用したモバイルアプリ開発、CloudflareやFirebaseを中心としたモダンなインフラ構成にも強みを持っています [cite: The user is a professional software engineer with a skill set spanning frontend development, backend development (primary focus), and application architecture design., The user is a professional software engineer with a skill set spanning frontend development, backend development (primary focus), and application architecture design., The user has a strong preference for a modern technical stack including Flutter, Firebase, Cloudflare (Pages/Workers), and is exploring Rust for personal projects.].
+                  また、フロントエンド開発やクロスプラットフォームフレームワーク（Flutter）を活用したモバイルアプリ開発、CloudflareやFirebaseを中心としたモダンなインフラ構成にも強みを持っています
+                  [cite: The user is a professional software engineer with a
+                  skill set spanning frontend development, backend development
+                  (primary focus), and application architecture design., The
+                  user is a professional software engineer with a skill set
+                  spanning frontend development, backend development (primary
+                  focus), and application architecture design., The user has a
+                  strong preference for a modern technical stack including
+                  Flutter, Firebase, Cloudflare (Pages/Workers), and is
+                  exploring Rust for personal projects.].
                 </p>
                 <p>
-                  個人活動・コミュニティ活動にも注力しており、複数の技術コミュニティや国内最大級の技術カンファレンスのコアスタッフ・オーガナイザーとして、予算管理からテクニカルインフラの構築、スポンサーシップ運用（社内ツールの開発）まで幅広く管轄しています [cite: The user is a lead organizer and developer for the Flutter Osaka community and is involved with the Flutter Japan User Group., The user is a core staff member of the FlutterKaigi organizing team, responsible for budgeting, technical infrastructure, and sponsorship management., The user values operational efficiency and automation, often building custom tools to streamline repetitive tasks like sponsor data management or form testing.]. 
-                  効率化と自動化を好み、現場主義のカルチャーを大切にしながら日々ものづくりを続けています [cite: The user favors a "festival-like" or "culture festival" atmosphere for tech conferences, emphasizing local community engagement and high-energy networking., The user values operational efficiency and automation, often building custom tools to streamline repetitive tasks like sponsor data management or form testing., Planning and execution of FlutterKaigi 2026, scheduled for November 2026 with a focus on "现场主義" (on-site preference) and no simultaneous streaming.].
+                  個人活動・コミュニティ活動にも注力しており、複数の技術コミュニティや国内最大級の技術カンファレンスのコアスタッフ・オーガナイザーとして、予算管理からテクニカルインフラの構築、スポンサーシップ運用（社内ツールの開発）まで幅広く管轄しています
+                  [cite: The user is a lead organizer and developer for the
+                  Flutter Osaka community and is involved with the Flutter Japan
+                  User Group., The user is a core staff member of the
+                  FlutterKaigi organizing team, responsible for budgeting,
+                  technical infrastructure, and sponsorship management., The
+                  user values operational efficiency and automation, often
+                  building custom tools to streamline repetitive tasks like
+                  sponsor data management or form testing.].
+                  効率化と自動化を好み、現場主義のカルチャーを大切にしながら日々ものづくりを続けています
+                  [cite: The user favors a "festival-like" or "culture festival"
+                  atmosphere for tech conferences, emphasizing local community
+                  engagement and high-energy networking., The user values
+                  operational efficiency and automation, often building custom
+                  tools to streamline repetitive tasks like sponsor data
+                  management or form testing., Planning and execution of
+                  FlutterKaigi 2026, scheduled for November 2026 with a focus on
+                  "现场主義" (on-site preference) and no simultaneous
+                  streaming.].
                 </p>
               </div>
             </div>
@@ -99,7 +137,7 @@ export default function Home() {
                   icon={<ExternalLink />}
                 />
                 <LinkCard
-                href="mailto:jiyuujin@nekohack.me"
+                  href="mailto:jiyuujin@nekohack.me"
                   title="Email"
                   icon={<Mail />}
                 />
@@ -111,13 +149,21 @@ export default function Home() {
 
       <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-6 text-center text-sm text-gray-500 dark:text-gray-400">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <span>&copy; {new Date().getFullYear()} YUMA. All rights reserved.</span>
+          <span>
+            &copy; {new Date().getFullYear()} YUMA. All rights reserved.
+          </span>
           <div className="flex gap-4">
-            <Link href="/privacy" className="hover:underline flex items-center gap-1">
+            <Link
+              href="/privacy"
+              className="hover:underline flex items-center gap-1"
+            >
               <ShieldAlert className="h-4 w-4" />
               プライバシーポリシー
             </Link>
-            <Link href="/contact" className="hover:underline flex items-center gap-1">
+            <Link
+              href="/contact"
+              className="hover:underline flex items-center gap-1"
+            >
               <FileText className="h-4 w-4" />
               お問い合わせ
             </Link>
