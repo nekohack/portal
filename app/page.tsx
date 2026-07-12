@@ -112,6 +112,10 @@ export default function Home() {
           <span>
             &copy; {new Date().getFullYear()} YUMA. All rights reserved.
           </span>
+          <span className="hidden sm:inline text-gray-300 dark:text-gray-700">|</span>
+          <Link href="/privacy" className="hover:underline text-gray-600 dark:text-gray-400">
+            プライバシーポリシー
+          </Link>
         </div>
       </footer>
     </main>
