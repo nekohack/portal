@@ -110,7 +110,7 @@ export default function Home() {
       <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-6 text-center text-sm text-gray-500 dark:text-gray-400">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-center items-center gap-4">
           <span>
-            &copy; {new Date().getFullYear()} YUMA. All rights reserved.
+            &copy; {new Date().getFullYear()} nekohack. All rights reserved.
           </span>
           <span className="hidden sm:inline text-gray-300 dark:text-gray-700">|</span>
           <Link href="/privacy" className="hover:underline text-gray-600 dark:text-gray-400">
