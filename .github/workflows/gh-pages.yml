@@ -1,10 +1,9 @@
-name: Deploy to S3
+name: Deploy to gh-pages
 
-# on:
-#   push:
-#     branches:
-#       - main
-on: {}
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -32,13 +31,6 @@ jobs:
           version: 9
           run_install: false
 
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ap-northeast-1
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
         shell: bash
@@ -47,5 +39,8 @@ jobs:
         run: |
           pnpm build
 
-      - name: Deploy Portfolio to S3
-        run: bash scripts/deploy.sh
+      - name: Deploy Portfolio to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
