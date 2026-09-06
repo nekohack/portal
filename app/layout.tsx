@@ -8,6 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 const GA_MEASUREMENT_ID = "G-QGWKCL3N83";
+const ADSENSE_CLIENT_ID = "ca-pub-7095980629133842";
 
 export const metadata: Metadata = {
   title: "YUMA | Developer & Manager",
@@ -48,6 +49,12 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider
