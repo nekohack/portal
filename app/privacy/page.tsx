@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <div className="pt-8 border-t border-zinc-800/80 font-mono text-xs text-zinc-500 tracking-widest">
-              <p>策定日: 2026年7月12日[cite: 3]</p>
+              <p>策定日: 2026年7月12日</p>
             </div>
           </div>
 
