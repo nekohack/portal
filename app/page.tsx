@@ -154,7 +154,7 @@ export default function Home() {
                     alt="YUMA"
                     width={180}
                     height={180}
-                    className="h-[180px] w-[180px] object-cover rounded-xl grayscale contrast-125 transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+                    className="h-[180px] w-[180px] object-cover rounded-xl contrast-125 transition-all duration-700 group-hover:scale-105"
                     priority
                   />
                 </div>
