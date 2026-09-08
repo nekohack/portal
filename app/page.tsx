@@ -20,6 +20,7 @@ import {
   Plane,
   Newspaper,
   Compass,
+  Footprints,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -98,6 +99,12 @@ export default function Home() {
       desc: "Aviation Spotting",
       icon: <Plane className="h-6 w-6" />,
       href: "https://jetphoto-community.nekohack.me/",
+    },
+    {
+      name: "Pocket",
+      desc: "Walking joyful",
+      icon: <Footprints className="h-6 w-6" />,
+      href: "https://pocket-community.nekohack.me/",
     },
   ];
 
