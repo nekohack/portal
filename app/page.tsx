@@ -1,4 +1,5 @@
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Mic } from "lucide-react";
 import {
   ChartNoAxesCombined,
   ExternalLink,
@@ -99,6 +100,12 @@ export default function Home() {
       desc: "Interactive Tool",
       icon: <Music className="h-6 w-6" />,
       href: "https://karaoke-bingo.nekohack.me/",
+    },
+    {
+      name: "Media Player",
+      desc: "Music Library",
+      icon: <Mic className="h-6 w-6" />,
+      href: "https://media-player.nekohack.me/",
     },
     {
       name: "JetPhoto",
