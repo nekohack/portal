@@ -72,7 +72,7 @@ export default function Home() {
     },
     {
       name: "Portal",
-      desc: "Main Hub",
+      desc: "My Profile",
       icon: <User className="h-6 w-6" />,
       href: "https://yuma-kitamura.nekohack.me/",
     },
